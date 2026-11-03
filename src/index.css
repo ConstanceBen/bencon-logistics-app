@@ -1,0 +1,21 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 60px;
+}
+.head-logo{
+  width: 150px;
+}
+
+.link{
+  text-decoration: none;
+  color: black;
+  margin: 20px;
+}
+.header-btn{
+  background-color: orange;
+  padding: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
