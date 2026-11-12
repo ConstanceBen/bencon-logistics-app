@@ -5,14 +5,14 @@ import Footer from './components/footer'
 import Homepage from './pages/home.jsx'
 import AboutPage from './pages/about.jsx'
 import ContactPage from './pages/contact.jsx'
-import ServicesPage from './pages/services.jsx'
+import ServicesPage from './pages/servicespage.jsx'
 
 
 function App() {
   
 
   return (
-    <>
+    <div className='app-container'>
       <Header />
           <Routes>
             <Route path={"/"} element={<Homepage />} />
@@ -21,7 +21,7 @@ function App() {
             <Route path={"/services"} element={<ServicesPage />} />
           </Routes>
       <Footer />
-    </>
+    </div>
   )
 }
 

@@ -1,8 +1,14 @@
+      import Hero from "../components/hero"
+      import Services from "../components/servicesComp"
+
 function Homepage() {
-    return(
-        <div className="container">
-            <h1>home page</h1>
-        </div>
+    return (
+        <main className="page">
+            
+        <Hero />
+        <Services/>
+
+        </main>
     )
 }
 export default Homepage

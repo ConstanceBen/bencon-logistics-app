@@ -8,7 +8,7 @@ function Footer() {
             <div className='top-footer'>
                 <div>
                     <img src={logofooter} alt="" />
-                    <p> General Contracting, environmental and oil fikeled services.industrial cleaning, grass clearing and garden care.</p>
+                    <p> General Contracting, environmental and oil field services.industrial cleaning, grass clearing and garden care.</p>
                 </div>
                 <div>
                     <p>
