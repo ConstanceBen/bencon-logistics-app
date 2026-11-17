@@ -6,13 +6,17 @@ import Homepage from './pages/home.jsx'
 import AboutPage from './pages/about.jsx'
 import ContactPage from './pages/contact.jsx'
 import ServicesPage from './pages/servicespage.jsx'
-
+import Topbar from './components/topbar.jsx'
+import { useLocation } from 'react-router-dom'
 
 function App() {
+  const location = useLocation();
   
-
   return (
     <div className='app-container'>
+      {
+        location.pathname === "/" ? null : <Topbar/>
+      }      
       <Header />
           <Routes>
             <Route path={"/"} element={<Homepage />} />

@@ -7,26 +7,10 @@ function AboutPage() {
   return (
     <div className="page">
       <div className="top-bar">
-        <div className="container top-bar-content">
-          <span>
-            Supply · Oil field &amp; environmental · Industrial cleaning · Grass clearing · Gardens &amp; organic manure
-          </span>
-          <div>
-            <a href="tel:+234000000000">[PHONE]</a> | <a href="mailto:info@bencon.com">[EMAIL]</a>
-          </div>
-        </div>
+        
       </div>
 
-      <header className="about-navbar">
-        <div className="container nav-content">
-          <div className="logo">
-            <strong>BENCON</strong>
-            <small>LOGISTICS</small>
-          </div>
-
-
-        </div>
-      </header>
+      
 
       <section className="hero">
         <div className="about-container">
@@ -77,6 +61,50 @@ function AboutPage() {
         </div>
 
       </section>
+
+      
+<section className="team-section">
+  <div className="container">
+    <span className="team-eyebrow">LEADERSHIP</span>
+    <h2>The team behind Bencon</h2>
+
+    <div className="team-grid">
+      <div className="team-card">
+        <div className="team-photo">[PHOTO]</div>
+        <h4>[FULL NAME]</h4>
+        <p>Managing Director</p>
+      </div>
+
+      <div className="team-card">
+        <div className="team-photo">[PHOTO]</div>
+        <h4>[FULL NAME]</h4>
+        <p>Head of Operations</p>
+      </div>
+
+      <div className="team-card">
+        <div className="team-photo">[PHOTO]</div>
+        <h4>[FULL NAME]</h4>
+        <p>HSE &amp; Environmental Lead</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section className="cert-bar">
+  <div className="container cert-inner">
+    <div>
+      <h3>Registrations &amp; certifications</h3>
+      <p>
+        Company registration: RC [NUMBER]. [ADD INDUSTRY PERMITS, REGULATOR REGISTRATIONS AND SAFETY CERTIFICATIONS]
+      </p>
+    </div>
+    <a href="/contact" className="btn-work">
+      Work with us
+    </a>
+  </div>
+</section>
+
     </div>
   )
 }
